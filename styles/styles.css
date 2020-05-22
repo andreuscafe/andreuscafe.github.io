@@ -1,3 +1,15 @@
-
+.series-wrapper .series-title {
+  font-size: 1.6em;
+}
+.series-wrapper .series {
+  display: flex;
+  width: 100%;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+}
+.series-wrapper .series .serie {
+  margin-right: 16px;
+  scroll-snap-align: center;
+}
 
 /*# sourceMappingURL=styles.css.map */
